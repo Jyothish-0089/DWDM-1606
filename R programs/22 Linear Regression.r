@@ -1,0 +1,6 @@
+age <- c(15,16,17,18,20,23,26,29,32,35)
+height <- c(156,160,165,168,171,175,179,180,181,183)
+relation <- lm(age~height)
+summary(relation)
+df <- data.frame(height = 200)
+predict(relation,df)
