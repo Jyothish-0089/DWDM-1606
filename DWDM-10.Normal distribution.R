@@ -1,5 +1,0 @@
-values <- c(1,2,3,4,5)
-result = dnorm(values, mean = 3, sd = 1.58)
-hist(result)
-result = pnorm(values, mean = 3, sd = 1.58)
-hist(result)
