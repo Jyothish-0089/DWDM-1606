@@ -1,0 +1,15 @@
+@relation 'employee-weka.filters.unsupervised.attribute.Add-TNOM-NSex-LStraight,Lesbian,Gay,Bisexual-Clast-weka.filters.unsupervised.attribute.Remove-R4-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0'
+
+@attribute name {x,y,z,a,b}
+@attribute id numeric
+@attribute salary {low,medium,high}
+@attribute gender {male,female}
+@attribute phone numeric
+@attribute Sex {Straight,Lesbian,Gay,Bisexual}
+
+@data
+x,0,low,male,0.973691,Straight
+y,0.25,high,female,1,Lesbian
+z,0.5,medium,male,0.777966,Gay
+a,0.75,low,female,0,Bisexual
+b,1,high,male,0.778004,Straight

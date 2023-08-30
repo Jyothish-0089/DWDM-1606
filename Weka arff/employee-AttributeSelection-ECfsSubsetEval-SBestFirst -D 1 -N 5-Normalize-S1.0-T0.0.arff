@@ -1,0 +1,20 @@
+@relation 'employee-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval-Sweka.attributeSelection.BestFirst -D 1 -N 5-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0'
+
+@attribute eid numeric
+@attribute ename {raj,ramu,anil,sunil,rajiv,sunitha,kavitha,suresh,ravi,ramana,ram,kavya,navya}
+@attribute address {pdtr,kdp,nlr,gtr}
+
+@data
+0,raj,pdtr
+0.083333,ramu,pdtr
+0.166667,anil,kdp
+0.25,sunil,kdp
+0.333333,rajiv,kdp
+0.416667,sunitha,nlr
+0.5,kavitha,nlr
+0.583333,suresh,gtr
+0.666667,ravi,gtr
+0.75,ramana,gtr
+0.833333,ram,kdp
+0.916667,kavya,kdp
+1,navya,kdp
